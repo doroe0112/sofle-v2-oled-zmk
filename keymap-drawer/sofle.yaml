@@ -202,11 +202,11 @@ layers:
   - RGB SAD
   - RGB SAI
   - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: default, h: toggle}
+  - {t: lower, h: toggle}
+  - {t: raise, h: toggle}
+  - {t: adjust, h: toggle}
+  - {t: Num, h: toggle}
   - ''
   - ''
   - RGB BRD
@@ -224,7 +224,7 @@ layers:
   - RGB COLOR HSB(0,0,100)
   - ''
   - ''
-  - ''
+  - RGB COLOR HSB(293,100,49)
   - ''
   - RGB TOG
   - ''
