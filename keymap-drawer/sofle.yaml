@@ -221,7 +221,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - RGB COLOR HSB(0,0,100)
   - ''
   - ''
   - ''
@@ -269,7 +269,7 @@ layers:
   - KP 9
   - '-'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
