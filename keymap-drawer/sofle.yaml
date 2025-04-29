@@ -92,18 +92,18 @@ layers:
   - '#'
   - $
   - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
+  - '{'
+  - '}'
   - (
+  - )
   - )
   - '|'
   - {t: ▽, type: trans}
   - '='
   - '-'
   - KP PLUS
-  - '{'
-  - '}'
+  - _
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
@@ -202,11 +202,11 @@ layers:
   - RGB SAD
   - RGB SAI
   - RGB EFF
-  - {t: default, h: toggle}
-  - {t: lower, h: toggle}
-  - {t: raise, h: toggle}
-  - {t: adjust, h: toggle}
-  - {t: Num, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - RGB BRD
@@ -216,7 +216,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - MUTE
   - ''
   - ''
   - ''
@@ -224,14 +224,14 @@ layers:
   - RGB COLOR HSB(0,0,100)
   - ''
   - ''
-  - RGB COLOR HSB(293,100,49)
+  - ''
   - ''
   - RGB TOG
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - PREV
+  - PLAY PAUSE
+  - NEXT
   - ''
   - ''
   - ''
