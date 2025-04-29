@@ -52,14 +52,14 @@ layers:
   - /
   - RSHFT
   - LGUI
-  - LEFT SHIFT
+  - LEFT CONTROL
   - SPACE
   - lower
   - LEFT ALT
   - RIGHT ALT
   - raise
   - ENTER
-  - RSHIFT
+  - RIGHT CONTROL
   - RGUI
   lower:
   - '&studio_unlock'
