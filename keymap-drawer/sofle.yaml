@@ -44,7 +44,7 @@ layers:
   - B
   - V
   - MUTE
-  - ''
+  - Ctl+V
   - J
   - M
   - ','
@@ -108,8 +108,8 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - ;
-  - ':'
+  - <
+  - '>'
   - \
   - {t: ▽, type: trans}
   - '&studio_unlock'
@@ -142,9 +142,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
-  - {t: ▽, type: trans}
+  - Ctl+LEFT
   - UP
-  - {t: ▽, type: trans}
+  - Ctl+RIGHT
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
