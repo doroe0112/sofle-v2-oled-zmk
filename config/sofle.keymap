@@ -42,15 +42,6 @@
         };
     };
 
-    macros {
-        ae_Test: ae_Test {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt LA(KP_NUMBER_0) &kp KP_NUMBER_2 &kp KP_NUMBER_2 &kp KP_NUMBER_8>;
-            label = "AE_TEST";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -74,7 +65,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+                <&inc_dec_kp LS(BACKSPACE) LS(DELETE)>;
         };
 
         lower_layer {
@@ -89,11 +80,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&studio_unlock  &kp F1     &kp F2          &kp F3       &kp F4          &kp F5                       &kp F6    &kp F7          &kp F8           &kp F9                &kp F10   &kp F11
-&kp GRAVE       &kp N1     &kp N2          &kp N3       &kp N4          &kp N5                       &kp N6    &kp N7          &kp N8           &kp N9                &kp N0    &kp BACKSPACE
-&trans          &kp EXCL   &kp AT          &kp HASH     &kp DLLR        &kp PRCNT                    &kp LBRC  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RPAR  &kp PIPE
-&trans          &kp EQUAL  &kp MINUS       &kp KP_PLUS  &kp UNDERSCORE  &kp TILDE  &trans    &trans  &kp LBKT  &kp RBKT        &kp LESS_THAN    &kp GREATER_THAN      &kp BSLH  &trans
-                           &studio_unlock  &trans       &trans          &trans     &trans    &trans  &trans    &trans          &trans           &trans
+&studio_unlock  &kp F1     &kp F2          &kp F3       &kp F4          &kp F5                       &kp F6        &kp F7                &kp F8                &kp F9                &kp F10   &kp F11
+&kp GRAVE       &kp N1     &kp N2          &kp N3       &kp N4          &kp N5                       &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp N9                &kp N0    &kp BACKSPACE
+&trans          &kp EXCL   &kp AT          &kp HASH     &kp DLLR        &kp PRCNT                    &kp MINUS     &kp LEFT_BRACE        &kp RIGHT_BRACE       &kp LEFT_PARENTHESIS  &kp RPAR  &kp PIPE
+&trans          &kp EQUAL  &kp MINUS       &kp KP_PLUS  &kp UNDERSCORE  &kp TILDE  &trans    &trans  &kp LBKT      &kp RBKT              &kp LESS_THAN         &kp GREATER_THAN      &kp BSLH  &trans
+                           &studio_unlock  &trans       &trans          &trans     &trans    &trans  &trans        &trans                &trans                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
