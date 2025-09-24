@@ -85,7 +85,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - F12
+  - BACKSPACE
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -93,9 +93,9 @@ layers:
   - $
   - '%'
   - '{'
+  - '{'
   - '}'
   - (
-  - )
   - )
   - '|'
   - {t: ▽, type: trans}
@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ae_Test'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
