@@ -55,8 +55,8 @@ layers:
   - LEFT CONTROL
   - SPACE
   - lower
+  - LEFT ALT
   - Num
-  - RIGHT ALT
   - raise
   - ENTER
   - RIGHT CONTROL
