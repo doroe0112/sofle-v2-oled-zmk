@@ -56,11 +56,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE         &kp N1  &kp N2    &kp N3            &kp N4     &kp N5                                  &kp N6     &kp N7     &kp N8             &kp N9    &kp N0    &kp DELETE
-&kp ESC           &kp Q   &kp W     &kp F             &kp G      &kp X                                   &kp Y      &kp U      &kp K              &kp O     &kp P     &kp BSPC
-&num_layer 4 TAB  &kp A   &kp S     &kp E             &kp R      &kp D                                   &kp T      &kp N      &kp I              &kp L     &kp SEMI  &kp SQT
-&kp LSHFT         &kp Z   &kp H     &kp C             &kp B      &kp V      &kp C_MUTE    &kp LC(V)      &kp J      &kp M      &kp COMMA          &kp DOT   &kp FSLH  &kp RSHFT
-                          &kp LGUI  &kp LEFT_CONTROL  &kp SPACE  &mo LOWER  &mo 4         &kp RIGHT_ALT  &mo RAISE  &kp ENTER  &kp RIGHT_CONTROL  &kp RGUI
+&kp GRAVE         &kp N1  &kp N2    &kp N3            &kp N4     &kp N5                                &kp N6     &kp N7     &kp N8             &kp N9    &kp N0    &kp DELETE
+&kp ESC           &kp Q   &kp W     &kp F             &kp G      &kp X                                 &kp Y      &kp U      &kp K              &kp O     &kp P     &kp BSPC
+&num_layer 4 TAB  &kp A   &kp S     &kp E             &kp R      &kp D                                 &kp T      &kp N      &kp I              &kp L     &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z   &kp H     &kp C             &kp B      &kp V      &kp C_MUTE      &kp LC(V)  &kp J      &kp M      &kp COMMA          &kp DOT   &kp FSLH  &kp RSHFT
+                          &kp LGUI  &kp LEFT_CONTROL  &kp SPACE  &mo LOWER  &kp LEFT_ALT    &mo 4      &mo RAISE  &kp ENTER  &kp RIGHT_CONTROL  &kp RGUI
             >;
 
             sensor-bindings =
