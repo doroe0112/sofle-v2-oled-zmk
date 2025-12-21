@@ -81,8 +81,8 @@ layers:
   - '4'
   - '5'
   - '*'
-  - (
-  - )
+  - +
+  - _
   - '9'
   - '0'
   - BACKSPACE
@@ -100,7 +100,7 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - '='
-  - '-'
+  - ':'
   - KP PLUS
   - _
   - '~'
@@ -141,7 +141,7 @@ layers:
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PG UP
+  - HOME
   - Ctl+LEFT
   - UP
   - Ctl+RIGHT
@@ -153,7 +153,7 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
-  - PG DN
+  - END
   - LEFT
   - DOWN
   - RIGHT
@@ -168,8 +168,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
