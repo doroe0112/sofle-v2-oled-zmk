@@ -108,7 +108,8 @@ sensor-bindings =
 
 sensor-bindings =
     <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-    <&inc_dec_kp PG_UP PG_DN>;        };
+    <&inc_dec_kp PG_UP PG_DN>;        
+};
 
         raise_layer {
             label = "raise";
@@ -130,7 +131,8 @@ sensor-bindings =
 
 sensor-bindings =
     <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-    <&inc_dec_kp PG_UP PG_DN>;        };
+    <&inc_dec_kp PG_UP PG_DN>;        
+};
 
         adjust_layer {
             // ----------------------------------------------------------------------------------------------------------------------------
