@@ -268,7 +268,7 @@ layers:
   - KP 8
   - KP 9
   - '-'
-  - {t: ▽, type: trans}
+  - {t: BACKSPACE, h: toggle}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
