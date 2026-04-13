@@ -215,9 +215,9 @@ layers:
   - '&bl BL_OFF'
   - ''
   - ''
-  - ''
+  - VOLUME DOWN
   - MUTE
-  - ''
+  - VOLUME UP
   - ''
   - ''
   - ''
