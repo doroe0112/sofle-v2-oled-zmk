@@ -41,6 +41,20 @@
             flavor = "balanced";
             retro-tap;
         };
+
+   // 👉 NEU: Maus X
+    inc_dec_mkp_x: inc_dec_mkp_x {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&mkp MOVE_LEFT>, <&mkp MOVE_RIGHT>;
+    };
+
+    // 👉 NEU: Maus Y
+    inc_dec_mkp_y: inc_dec_mkp_y {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&mkp MOVE_UP>, <&mkp MOVE_DOWN>;
+    };
     };
 
     keymap {
@@ -65,11 +79,9 @@
             >;
 
 
-
-sensor-bindings = <&inc_dec_mkp MOVE_LEFT MOVE_RIGHT>,
-                  <&inc_dec_mkp MOVE_UP MOVE_DOWN>;
-
-
+sensor-bindings =
+    <&inc_dec_mkp_x>,
+    <&inc_dec_mkp_y>;
             //sensor-bindings =
               //  <&inc_dec_kp C_VOL_DN C_VOL_UP>,
                 //<&inc_dec_kp LS(BACKSPACE) LS(DELETE)>;
