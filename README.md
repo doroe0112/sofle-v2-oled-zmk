@@ -1,6 +1,9 @@
 [![Build Status](../../actions/workflows/build.yml/badge.svg)](../../actions)
 [![Download Firmware](https://img.shields.io/badge/Download-Firmware-blue?logo=github)](../../releases/latest)
 
+
+
+![Heatmap](./heatmap.jpeg)
 # Sofle V2 Keyboard Guide
 This guide is for flashing the Ergomech Sofle V2 Keyboard. The Sofle V2 is 6×4+5 keys column-staggered split keyboard, using Cherry switches.
 
